@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="mavendemoproject.MavenProject.TestCase10_UpdateCartItem"/>
+      <class name="mavendemoproject.MavenProject.TestCase1_Register"/>
+      <class name="mavendemoproject.MavenProject.TestCase13_ApplyCoupan"/>
+      <class name="mavendemoproject.MavenProject.TestCase9_AddToCart"/>
+      <class name="mavendemoproject.MavenProject.TestCase6_SearchingWithFilter"/>
+      <class name="mavendemoproject.MavenProject.TestCase12_EachPayementMethod"/>
+      <class name="mavendemoproject.MavenProject.TestCase15_Addtocart_withoutlogin"/>
+      <class name="mavendemoproject.MavenProject.TestCase7_ProductDetail"/>
+      <class name="mavendemoproject.MavenProject.TestCase14_GiveRating"/>
+      <class name="mavendemoproject.MavenProject.TestCase11_PaymentCheckout"/>
+      <class name="mavendemoproject.MavenProject.TestCase8_SortedBy"/>
+      <class name="mavendemoproject.MavenProject.TestCase2_Successful_Login"/>
+      <class name="mavendemoproject.MavenProject.TestCase4_EditProfile"/>
+      <class name="mavendemoproject.MavenProject.TestCase3_IncorrectPassword"/>
+      <class name="mavendemoproject.MavenProject.TestCase5_SearchingProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
